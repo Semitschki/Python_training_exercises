@@ -1,0 +1,13 @@
+*.pex
+*.swp
+*.pyc
+*.egg-info
+__pycache__
+*.ini
+pylint.out
+junit.xml
+.eggs
+.coverage
+coverage.xml
+.cache
+os-scripts
