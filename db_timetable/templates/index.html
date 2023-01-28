@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <body>
+        <h1>DB Timetable</h1>
+            <form action="{{url_for('get_timetable')}}" method="post">
+            <label>Abfahrt: </label>
+            <input type="time" name="time"><br><br>
+            <label>Bahnhofsauswahl: </label>
+            <input type="text" name="location" required><br><br>
+            <label>Optionale Gleisauswahl: </label>
+            <input type="text" name="track"><br><br>
+            <input type="submit" value="Daten abschicken">
+        </form>
+    </body>
+</html>
